@@ -1,0 +1,103 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+
+label,input{
+
+	display: block;
+	line-height: 30px;
+	height: 30px;
+	outline: none;
+	font-size: 13pt;
+	width: 100%;
+
+}
+
+form{
+	width: 330px;
+	background-color: rgba(0,0,0,.2);
+	padding: 20px 20px 20px 20px;
+    margin: 30px auto;
+
+}
+
+input[type="submit"]{
+
+	margin-top: 10px;
+	cursor: pointer;
+
+}
+
+#esquerda{
+
+	width: 35%;
+	
+	height: 500px;
+	float: left;
+}
+#direita{
+
+	width: 65%;
+	
+	height: 500px;
+	float: left;
+}
+
+table{
+	
+	width: 90%;
+	margin: 30px auto;
+}
+
+tr{
+
+	line-height: 30px;
+
+}
+
+tr#titulo{
+
+  font-weight: bold;
+  background-color: rgba(0,0,0,.6);
+  color: white;
+
+}
+td{
+
+	padding: 0px 5px;
+	background-color: rgba(0,0,0,.2);
+}
+
+a{
+
+	background-color: white;
+	color: black;
+	padding: 5px;
+	margin: 0pc 5px;
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+}
+.aviso{
+   
+	width: 90%;
+	height: 50px;
+	margin: auto;
+}
+
+.aviso img{
+
+	width: 50px;
+	display: block;
+	float: left;
+}
+
+.aviso h4{
+	float: left;
+	padding-top:24px;
+	padding-left: 5px;
+}
